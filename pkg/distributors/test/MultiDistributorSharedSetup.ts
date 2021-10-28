@@ -23,7 +23,6 @@ interface SetupContracts {
   tokens: TokenList;
   pool: Contract;
   stakingContract: Contract;
-  orchard: Contract;
   vault: Contract;
   authorizer: Contract;
 }
@@ -77,11 +76,6 @@ export const setup = async (): Promise<{ data: SetupData; contracts: SetupContra
   await rewardTokens.mint({ to: rewarder, amount: rewardTokenInitialBalance });
   await rewardTokens.approve({ to: stakingContract.address, from: mockAssetManager });
 
-  const orchard = await deploy('MerkleOrchard', {
-    args: [vault.address],
-  });
-
-
   const assets = tokens.addresses;
 
   await vault.connect(lp).joinPool(poolId, lp.address, lp.address, {
@@ -100,7 +94,6 @@ export const setup = async (): Promise<{ data: SetupData; contracts: SetupContra
       tokens,
       pool,
       stakingContract,
-      orchard,
       vault,
       authorizer,
     },
