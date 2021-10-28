@@ -15,7 +15,6 @@ import { AssetHelpers, WeightedPoolEncoder } from '@balancer-labs/balancer-js';
 import { deploy } from '@balancer-labs/v2-helpers/src/contract';
 import * as expectEvent from '@balancer-labs/v2-helpers/src/test/expectEvent';
 import { expectBalanceChange } from '@balancer-labs/v2-helpers/src/test/tokenBalance';
-import { advanceTime } from '@balancer-labs/v2-helpers/src/time';
 import { setup, tokenInitialBalance } from './MultiDistributorSharedSetup';
 
 function encodeElement(address: string, balance: BigNumber): string {
