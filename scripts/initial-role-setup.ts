@@ -2,9 +2,9 @@ import { ethers } from 'hardhat';
 import { actionId } from '../pvt/helpers/src/models/misc/actions';
 import * as assert from 'assert';
 
-const authorizerAddress = '0x76911183D657C153dc42BF91C52C5FD7Ad7c55c2';
-const protocolFeeCollectorAddress = '0x70AefD6e0334eBB0ACb59F78F115FCa5e7ad625b';
-const vaultAddress = '0xA5c45623130F37309c4C2472E7A59937E269aa00';
+const authorizerAddress = '0x4D5c7c795c6319399cABa2B726E3b6bC12DdFF69';
+const protocolFeeCollectorAddress = '0x7d27Ce4fDA56F9a417D62796734eB7e156810179';
+const vaultAddress = '0x3B95f3278F8783b3ECf59a96f94B5184EBE766f7';
 
 const initialAdminAddress = '0xD0DF68f0149C3e662Df772CF40cB63070591AD36';
 const withdrawalAdminAddress = '0xD0DF68f0149C3e662Df772CF40cB63070591AD36';
