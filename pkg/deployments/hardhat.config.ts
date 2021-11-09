@@ -49,7 +49,13 @@ task(TASK_TEST)
   .setAction(test);
 
 export default {
-  mocha: {
-    timeout: 40000,
-  },
+  networks: {
+    fuji: {
+      chainId: 43113,
+      url: "https://api.avax-test.network/ext/bc/C/rpc",
+      accounts: [""], // Using private key instead of mnemonic for vanity deploy
+      saveDeployments: true,
+      gasMultiplier: 2,
+    },
+  }
 };

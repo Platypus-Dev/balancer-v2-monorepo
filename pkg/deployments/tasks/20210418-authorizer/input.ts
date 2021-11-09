@@ -24,4 +24,7 @@ export default {
   arbitrum: {
     admin: '0x6207ed574152496c9B072C24FD87cE9cd9E17320',
   },
+  fuji: { 
+    admin: '0xD0DF68f0149C3e662Df772CF40cB63070591AD36'
+  }
 };

@@ -7,5 +7,5 @@ export type LiquidityBootstrappingPoolDeployment = {
 const Vault = new Task('20210418-vault');
 
 export default {
-  Vault,
+  Vault
 };
