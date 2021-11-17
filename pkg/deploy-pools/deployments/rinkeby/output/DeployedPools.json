@@ -1,0 +1,192 @@
+{
+  "TEST-WEIGHTED": {
+    "address": "0x9E7c5d529E4F19de415edC3eaCE2b67eedae1fDe",
+    "id": "0x9e7c5d529e4f19de415edc3eace2b67eedae1fde000100000000000000000021",
+    "symbol": "TEST-WEIGHTED",
+    "blockHash": "0x53f464d84602e92d305a115c9c492175fe570c90f981c368af91f6a740fdaea7",
+    "name": "Test pool",
+    "tokens": [
+      "0x0483863540CB2C1ea77F7827db43ee160a0Ad7AC",
+      "0x80dD2B80FbcFB06505A301d732322e987380EcD6",
+      "0xb4761d0481B4f7a8A858D2796eEF3DAa2f3D9D2c"
+    ],
+    "weights": [
+      {
+        "type": "BigNumber",
+        "hex": "0x04a03ce68d215555"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x04a03ce68d215555"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x04a03ce68d215556"
+      }
+    ],
+    "initialBalances": [
+      {
+        "type": "BigNumber",
+        "hex": "0x138ed765dee6d2abf0"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x01ea5446019c48c0"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x0f4240"
+      }
+    ],
+    "swapFeePercentage": {
+      "type": "BigNumber",
+      "hex": "0x08e1bc9bf04000"
+    },
+    "verified": true,
+    "initialized": true
+  },
+  "TEST-STABLE": {
+    "address": "0xCE1f4f5C99a296F57A9D70af063c8949A41AcdA4",
+    "id": "0xce1f4f5c99a296f57a9d70af063c8949a41acda4000200000000000000000022",
+    "symbol": "TEST-STABLE",
+    "blockHash": "0x7acac91bc1cf0bb89c972eedcce6091cc0ab13223744548a62b0447d87e95640",
+    "name": "Test Stable Pool",
+    "tokens": [
+      "0x12c615406F20eDcBDa50888f9fd6734dC4836417",
+      "0x70b55Af71B29c5Ca7e67bD1995250364C4bE5554"
+    ],
+    "initialBalances": [
+      {
+        "type": "BigNumber",
+        "hex": "0x02b5e3af16b1880000"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x02faf080"
+      }
+    ],
+    "amplificationParameter": 200,
+    "swapFeePercentage": {
+      "type": "BigNumber",
+      "hex": "0x01c6bf52634000"
+    },
+    "initialized": true,
+    "verified": true
+  },
+  "TEST-2-TOKEN-WEIGHTED": {
+    "address": "0x5158982d893d996083086b980a1aE40b5DD5589d",
+    "id": "0x5158982d893d996083086b980a1ae40b5dd5589d000200000000000000000023",
+    "symbol": "TEST-2-TOKEN-WEIGHTED",
+    "blockHash": "0xb9c52a7325725dc1b832a9398cfc47804d1537058cd5011450dfb67bff78b228",
+    "name": "Test pool 2 tokens weighted",
+    "tokens": [
+      "0x80dD2B80FbcFB06505A301d732322e987380EcD6",
+      "0xb4761d0481B4f7a8A858D2796eEF3DAa2f3D9D2c"
+    ],
+    "weights": [
+      {
+        "type": "BigNumber",
+        "hex": "0x058d15e176280000"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x0853a0d2313c0000"
+      }
+    ],
+    "initialBalances": [
+      {
+        "type": "BigNumber",
+        "hex": "0x01ea5446019c48c0"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x0f4240"
+      }
+    ],
+    "swapFeePercentage": {
+      "type": "BigNumber",
+      "hex": "0x08e1bc9bf04000"
+    },
+    "oracleEnabled": false,
+    "verified": true,
+    "initialized": true
+  },
+  "BEETS-LBP": {
+    "address": "0x20f737CD5A8820ab119b3708cd0B24C2A02e8fF5",
+    "id": "0x20f737cd5a8820ab119b3708cd0b24c2a02e8ff5000200000000000000000024",
+    "symbol": "BEETS-LBP",
+    "blockHash": "0x03f1325b42b21c782d694fc16bd44980be9e824eb21313c2517063ed8e8632fb",
+    "name": "BEETS LBP",
+    "tokens": [
+      "0x70b55Af71B29c5Ca7e67bD1995250364C4bE5554",
+      "0x8850Fd0C65d9B2B168153FAc6bAa269A566c4ef7"
+    ],
+    "weights": [
+      {
+        "type": "BigNumber",
+        "hex": "0x058d15e176280000"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x0853a0d2313c0000"
+      }
+    ],
+    "initialBalances": [
+      {
+        "type": "BigNumber",
+        "hex": "0x09fa7c0f20"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x0422ca8b0a00a425000000"
+      }
+    ],
+    "swapFeePercentage": {
+      "type": "BigNumber",
+      "hex": "0x038d7ea4c68000"
+    },
+    "swapEnabledOnStart": false,
+    "owner": "0x4fbe899d37fb7514adf2f41B0630E018Ec275a0C",
+    "verified": true,
+    "initialized": true
+  },
+  "BEETS-LBP-2": {
+    "address": "0x07d91b61b149a0717952ad33d97cb4293B0bDb1a",
+    "id": "0x07d91b61b149a0717952ad33d97cb4293b0bdb1a000200000000000000000025",
+    "symbol": "BEETS-LBP-2",
+    "blockHash": "0xd326cdf77a86bc7cf50a5148782f80b157958c47db84d100f8ed6597324f265f",
+    "name": "BEETS LBP 2",
+    "tokens": [
+      "0x70b55Af71B29c5Ca7e67bD1995250364C4bE5554",
+      "0x8850Fd0C65d9B2B168153FAc6bAa269A566c4ef7"
+    ],
+    "weights": [
+      {
+        "type": "BigNumber",
+        "hex": "0xb1a2bc2ec50000"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x0d2f13f7789f0000"
+      }
+    ],
+    "initialBalances": [
+      {
+        "type": "BigNumber",
+        "hex": "0x09fa7c0f20"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x0422ca8b0a00a425000000"
+      }
+    ],
+    "swapFeePercentage": {
+      "type": "BigNumber",
+      "hex": "0x038d7ea4c68000"
+    },
+    "swapEnabledOnStart": false,
+    "owner": "0x4fbe899d37fb7514adf2f41B0630E018Ec275a0C",
+    "verified": true,
+    "initialized": true
+  }
+}

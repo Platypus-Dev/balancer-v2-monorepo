@@ -1,0 +1,50 @@
+{
+  "name": "@balancer-labs/v2-deploy-pools",
+  "version": "2.0.0-rc.1",
+  "description": "Package to help with pool deployment, initial join and verification",
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/beethovenxfi/balancer-v2-monorepo/tree/master/pkg/deploy-pools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:beethovenxfi/balancer-v2-monorepo.git",
+    "directory": "pkg/deploy-pools"
+  },
+  "bugs": {
+    "url": "https://github.com/beethovenxfi/balancer-v2-monorepo/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts --max-warnings 0",
+    "test": "hardhat test ./**/test/*.ts",
+    "npx": "npx hardhat"
+  },
+  "devDependencies": {
+    "@balancer-labs/balancer-js": "workspace:*",
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-etherscan": "^2.1.3",
+    "@types/node": "^14.6.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
+    "chalk": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "hardhat": "^2.4.1",
+    "hardhat-local-networks-config-plugin": "0.0.5",
+    "node-fetch": "^2.6.1",
+    "prettier": "^2.1.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^4.0.2"
+  },
+  "peerDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "hardhat": "^2.4.1"
+  }
+}
